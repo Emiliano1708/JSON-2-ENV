@@ -1,0 +1,36 @@
+{
+  "name": "format-shift",
+  "version": "1.0.0",
+  "description": "CLI tool to convert files between JSON and CSV formats",
+  "main": "dist/index.js",
+  "bin": {
+    "format-shift": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "cli",
+    "json",
+    "csv",
+    "converter",
+    "format-shift"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "csv-parser": "^3.0.0",
+    "json2csv": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/json2csv": "^5.0.3",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
